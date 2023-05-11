@@ -1,0 +1,77 @@
+body{
+
+}
+#header{
+    background-color: #3B3566;
+    padding-bottom: 10px;
+}
+#main-topic, #event-info-min, #main-title, #images-meta {
+    background-color: #3B3566;
+    padding-top:  70px;
+    padding-bottom: 70px;
+}
+
+#event-info-detailed {
+    background-color: #3B3566;
+    height: 1000px;
+    padding-top: 70px;
+    padding-bottom: 170px;
+}
+
+#footer{
+    background-color: #9e95f8;
+    padding-top:  70px;
+    padding-bottom: 70px;
+}
+
+#main-title{
+    background-color: #FF0687;
+}
+
+.navbar {
+    min-height: 100px;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.custom-collapse {
+    background-color: #3B3566; /* Color personalizado */
+    color: #ffffff; /* Color de texto */
+}
+
+/* Estilo personalizado para el botón del collapse */
+.custom-collapse .navbar-toggler {
+    color: #ffffff; /* Color del botón */
+}
+
+.custom-btn {
+    background-color: #FF0687;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#detailed-info {
+    background-color: white;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.event-detailed-custom-btn {
+    background-color: #9e95f8;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin-right: 1px;
+    margin-left: 1px;
+}
