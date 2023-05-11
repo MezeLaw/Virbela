@@ -6,20 +6,19 @@ body{
     padding-bottom: 10px;
 }
 #main-topic, #event-info-min, #main-title, #images-meta {
-    background-color: #3B3566;
+    background-color: #232332;
     padding-top:  70px;
     padding-bottom: 70px;
 }
 
 #event-info-detailed {
-    background-color: #3B3566;
+    background-color: #232332;
     height: 1000px;
-    padding-top: 70px;
-    padding-bottom: 170px;
+    padding: 70px 40px 170px;
 }
 
 #footer{
-    background-color: #9e95f8;
+    background-color: #3B3566;
     padding-top:  70px;
     padding-bottom: 70px;
 }
@@ -34,7 +33,7 @@ body{
 }
 
 .navbar {
-    min-height: 100px;
+    min-height: 70px;
     width: 100% !important;
     margin: 0 !important;
 }
@@ -52,27 +51,27 @@ body{
 .custom-btn {
     background-color: #9e95f8;
     border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 10px 7px;
     margin-right: 1px;
     margin-left: 1px;
     margin-top: 1px;
-    margin-bottom: 1px;
+    margin-bottom: 0px;
 }
 
 #detailed-info {
     background-color: white;
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding: 25px 70px;
 }
+
 
 .event-detailed-custom-btn {
     background-color: #FF0687;
     border: none;
-    border-radius: 5px;
+    border-radius: 0px;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -93,6 +92,49 @@ body{
 
 iframe {
     width: 100%;
-    height: 500px;
+    height: 100px;
 }
 
+.light-theme {
+    color: #000000;
+}
+
+.dark-theme {
+    color: #ffffff;
+}
+
+
+#sign-up {
+    background-color: #232332;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    min-height: 100vh;
+}
+
+#sign-up-form{
+    background-color: #232332;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:invalid + .invalid-feedback:before {
+    content: attr(data-error);
+    color: red;
+    display: block;
+    margin-top: 5px;
+}
+
+.golden {
+    color: #ffc107;
+}
+
+.detail-min-border{
+    border: 7px solid #3B3566;
+    padding: 100px 270px;
+}
+.theme-icon {
+    color: white !important;
+}
