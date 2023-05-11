@@ -24,6 +24,11 @@ body{
     padding-bottom: 70px;
 }
 
+.footer-logo {
+    max-width: 150px;
+    max-height: 50px;
+}
+
 #main-title{
     background-color: #FF0687;
 }
@@ -45,7 +50,7 @@ body{
 }
 
 .custom-btn {
-    background-color: #FF0687;
+    background-color: #9e95f8;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -65,7 +70,7 @@ body{
 }
 
 .event-detailed-custom-btn {
-    background-color: #9e95f8;
+    background-color: #FF0687;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -75,3 +80,19 @@ body{
     margin-right: 1px;
     margin-left: 1px;
 }
+
+.logo-styles {
+    height: 50px;
+    width: 150px;
+}
+
+.social-media-logo {
+    width: 37px;
+    height: 37px;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
