@@ -5,7 +5,7 @@ body{
     background-color: #3B3566;
     padding-bottom: 10px;
 }
-#main-topic, #event-info-min, #main-title, #images-meta {
+#main-topic, #event-info-min,  #images-meta {
     background-color: #232332;
     padding-top:  70px;
     padding-bottom: 70px;
@@ -29,6 +29,8 @@ body{
 }
 
 #main-title{
+    padding-top:  70px;
+    padding-bottom: 70px;
     background-color: #FF0687;
 }
 
