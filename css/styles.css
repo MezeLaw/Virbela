@@ -13,8 +13,8 @@ body{
 
 #event-info-detailed {
     background-color: #232332;
-    height: 1000px;
     padding: 70px 40px 170px;
+    overflow: hidden;
 }
 
 #footer{
