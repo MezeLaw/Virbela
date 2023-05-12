@@ -51,15 +51,12 @@ body{
 .custom-btn {
     background-color: #9e95f8;
     border: none;
-    border-radius: 10px;
+    border-radius: 1px;
     color: white;
     font-size: 12px;
     font-weight: bold;
     padding: 10px 7px;
-    margin-right: 1px;
-    margin-left: 1px;
-    margin-top: 1px;
-    margin-bottom: 0px;
+    margin: 1px 1px 0px;
 }
 
 #detailed-info {
