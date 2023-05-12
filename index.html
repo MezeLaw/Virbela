@@ -13,6 +13,7 @@
         <!-- Popper -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+        <script src="./js/custom.js"></script>
     </head>
     <body>
     <!-- Header -->
@@ -30,19 +31,24 @@
                         <div class="ms-auto">
                             <ul class="navbar-nav">
                                 <a class="nav-link" href="https://www.twitter.com" target="_blank">
-                                    <img class="social-media-logo" src="./img/li.png" alt="Logo de Twitter">
+                                    <img class="social-media-logo" src="./img/li.png" alt="Logo de Linkedin">
                                 </a>
                                 <a class="nav-link" href="https://www.twitter.com" target="_blank">
                                     <img class="social-media-logo" src="./img/tw.png" alt="Logo de Twitter">
                                 </a>
                                 <a class="nav-link" href="https://www.twitter.com" target="_blank">
-                                    <img class="social-media-logo" src="./img/fb.png" alt="Logo de Twitter">
+                                    <img class="social-media-logo" src="./img/fb.png" alt="Logo de Facebook">
                                 </a>
                                 <li class="nav-item custom-btn">
                                     <a class="nav-link" href="#event-info-detailed">Info</a>
                                 </li>
                                 <li class="nav-item custom-btn">
                                     <a class="nav-link" href="register.html">Registrarse</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="themeButton" class="nav-link" onclick="changeTheme()" value="true">
+                                        <img class="social-media-logo" src="./img/theme.png" alt="Change theme">
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -57,7 +63,7 @@
     <section id="main-title" class="dark-theme">
         <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
             <div class="text-center">
-                <h1><strong>METAVERSO:</strong></h1>
+                <h1 class="golden"><strong>METAVERSO:</strong></h1>
                 <h1>Un vistazo al futuro del trabajo</h1>
                 <h2>Unite a un interactive panel discussion with the founders of Virbela, Second Life, High Fidelity</h2>
             </div>
@@ -99,17 +105,19 @@
     <!-- Inicio imagenes -->
     <section id="images-meta">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
+            <div class="row mt-2">
+                <div class="col-md-6 mt-2">
                     <img src="./img/img1.jpg" class="img-fluid" alt="Imagen 1">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-md-6 mt-2">
                     <img src="./img/img2.jpg" class="img-fluid" alt="Imagen 2">
                 </div>
-                <div class="col-sm-6">
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-2">
                     <img src="./img/img3.jpg" class="img-fluid" alt="Imagen 3">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-md-6 mt-2">
                     <img src="./img/img4.jpg" class="img-fluid" alt="Imagen 4">
                 </div>
             </div>
