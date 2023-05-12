@@ -113,3 +113,4 @@ function changeTheme() {
     }
 }
 
+// TODO agregar funcion para que se guarde en cache el theme al navegar entre page y page
