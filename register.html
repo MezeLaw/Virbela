@@ -64,29 +64,31 @@
                 <li>30 min 'Meet the Speakers' networking session</li>
             </ul>
             <!-- TODO agregar validadores-->
-            <form id="sign-up-form">
-                <div class="mb-3">
-                    <label for="firstName" class="form-label">Nombre</label>
-                    <input type="text" class="form-control rounded-0" id="firstName" placeholder="Ingresa tu nombre">
-                </div>
-                <div class="mb-3">
-                    <label for="lastName" class="form-label">Apellido</label>
-                    <input type="text" class="form-control rounded-0" id="lastName" placeholder="Ingresa tu apellido">
-                </div>
-                <div class="mb-3">
-                    <label for="company" class="form-label">Compañía</label>
-                    <input type="text" class="form-control rounded-0" id="company" placeholder="Ingresa el nombre de tu compañía">
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Correo electrónico</label>
-                    <input type="email" class="form-control rounded-0" id="email" placeholder="Ingresa tu correo electrónico">
-                </div>
-                <div class="row">
-                    <div class="col-12 d-flex justify-content-end">
-                        <button type="submit" class="btn btn-primary rounded-0 w-100">Registrarse</button>
+                <form id="sign-up-form">
+                    <div class="form-group">
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">Nombre</label>
+                            <input type="text" class="form-control rounded-0" id="firstName" placeholder="Ingresa tu nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Apellido</label>
+                            <input type="text" class="form-control rounded-0" id="lastName" placeholder="Ingresa tu apellido" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="company" class="form-label">Compañía</label>
+                            <input type="text" class="form-control rounded-0" id="company" placeholder="Ingresa el nombre de tu compañía" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control rounded-0" id="email" placeholder="Ingresa tu correo electrónico" required>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-end">
+                                <button type="submit" class="btn btn-primary rounded-0 w-100">Registrarse</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </form>
+                </form>
         </div>
     </div>
 </section>
