@@ -139,7 +139,6 @@ function setDarkTheme(){
 }
 
 function submitForm(event) {
-    alert("submit")
     event.preventDefault();
 
     const firstName = document.getElementById('firstName').value;
@@ -157,6 +156,8 @@ function submitForm(event) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    var form = document.getElementById('sign-up-form');
-    form.addEventListener('submit', submitForm);
+    const form = document.getElementById('sign-up-form');
+    if (form !== null) {
+        form.addEventListener('submit', submitForm);
+    }
 });
