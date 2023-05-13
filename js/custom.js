@@ -10,9 +10,7 @@ function changeTheme() {
 }
 
 function checkThemeChoice(){
-
     const darkMode = localStorage.getItem("dark-theme-choice");
-    console.log(darkMode)
     if (darkMode == "true"){
         setDarkTheme()
     } else {
@@ -139,3 +137,26 @@ function setDarkTheme(){
         eventInfoDetailed.style.color = "black";
     }
 }
+
+function submitForm(event) {
+    alert("submit")
+    event.preventDefault();
+
+    const firstName = document.getElementById('firstName').value;
+    const lastName = document.getElementById('lastName').value;
+    const company = document.getElementById('company').value;
+    const email = document.getElementById('email').value;
+
+    const subject = 'Metaverse event Sign Up';
+    const body = 'Hola soy ' + firstName + " " + lastName + ' de la compania ' + company +
+        ' y estoy intereasdo en registrarme para asisir al evento.' +
+        ' Mi email de contacto es ' + email
+    const mailtoLink = 'mailto:gabriel.molina@unahur.edu.ar?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+
+    window.open(mailtoLink);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    var form = document.getElementById('sign-up-form');
+    form.addEventListener('submit', submitForm);
+});

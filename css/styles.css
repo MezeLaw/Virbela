@@ -56,7 +56,6 @@ body{
     text-decoration: none;
     border: none;
     border-radius: 1px;
-    color: #ffffff !important;
     font-size: 12px;
     font-weight: bold;
     padding: 10px 7px;
@@ -66,7 +65,6 @@ body{
 
 .custom-btn:hover {
     background-color: #9e95f8;
-    color: #ffffff !important;
 }
 
 #detailed-info {
@@ -124,17 +122,6 @@ iframe {
     background-color: #232332;
 }
 
-input:invalid {
-    border-color: red;
-}
-
-input:invalid + .invalid-feedback:before {
-    content: attr(data-error);
-    color: red;
-    display: block;
-    margin-top: 5px;
-}
-
 .golden {
     color: #ffc107;
 }
@@ -155,5 +142,9 @@ input:invalid + .invalid-feedback:before {
 
 .fade-in.visible {
     opacity: 1;
+}
+
+.nav-link {
+    color: #ffffff !important;
 }
 
