@@ -123,10 +123,6 @@ iframe {
     color: #ffc107;
 }
 
-.detail-min-border{
-    border: 7px solid #3B3566;
-    padding: 100px 270px;
-}
 .theme-icon {
     color: white !important;
 }
@@ -144,4 +140,19 @@ iframe {
 .nav-link {
     color: #ffffff !important;
 }
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+.beb-neu {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 
