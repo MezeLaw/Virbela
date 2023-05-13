@@ -10,9 +10,7 @@ function changeTheme() {
 }
 
 function checkThemeChoice(){
-
     const darkMode = localStorage.getItem("dark-theme-choice");
-    console.log(darkMode)
     if (darkMode == "true"){
         setDarkTheme()
     } else {
