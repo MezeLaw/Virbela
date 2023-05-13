@@ -122,17 +122,6 @@ iframe {
     background-color: #232332;
 }
 
-input:invalid {
-    border-color: red;
-}
-
-input:invalid + .invalid-feedback:before {
-    content: attr(data-error);
-    color: red;
-    display: block;
-    margin-top: 5px;
-}
-
 .golden {
     color: #ffc107;
 }
@@ -158,3 +147,4 @@ input:invalid + .invalid-feedback:before {
 .nav-link {
     color: #ffffff !important;
 }
+
