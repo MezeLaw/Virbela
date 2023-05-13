@@ -50,15 +50,23 @@ body{
     color: #ffffff; /* Color del botón */
 }
 
+
+
 .custom-btn {
-    background-color: #9e95f8;
+    text-decoration: none;
     border: none;
     border-radius: 1px;
-    color: white;
+    color: #ffffff !important;
     font-size: 12px;
     font-weight: bold;
     padding: 10px 7px;
     margin: 1px 1px 0px;
+
+}
+
+.custom-btn:hover {
+    background-color: #9e95f8;
+    color: #ffffff !important;
 }
 
 #detailed-info {
@@ -77,6 +85,7 @@ body{
     padding: 10px 10px;
     margin-right: 1px;
     margin-left: 1px;
+    text-decoration: none;
 }
 
 .logo-styles {
@@ -137,3 +146,14 @@ input:invalid + .invalid-feedback:before {
 .theme-icon {
     color: white !important;
 }
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+
