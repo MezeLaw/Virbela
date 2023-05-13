@@ -56,7 +56,6 @@ body{
     text-decoration: none;
     border: none;
     border-radius: 1px;
-    color: #ffffff !important;
     font-size: 12px;
     font-weight: bold;
     padding: 10px 7px;
@@ -66,7 +65,6 @@ body{
 
 .custom-btn:hover {
     background-color: #9e95f8;
-    color: #ffffff !important;
 }
 
 #detailed-info {
@@ -157,3 +155,6 @@ input:invalid + .invalid-feedback:before {
     opacity: 1;
 }
 
+.nav-link {
+    color: #ffffff !important;
+}
